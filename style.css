@@ -1,0 +1,122 @@
+*{
+    font-family: sans-serif;
+    color: whitesmoke;
+    box-sizing: border-box;
+    
+}
+.container1{
+    background-position: center;
+    background-size: cover;
+    width:100%;
+    height:350px;
+    
+background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(stairs.jpg);
+}
+.nav1{
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+}
+.flex1{
+    display: flex;
+}
+.flex2{
+    display:flex;
+}
+.rectangle{
+    position: relative;
+    border: 10px solid #feac60;
+    width: 200px;
+    margin: auto;
+    height:150px;
+}
+.rect_content{
+    position: absolute;
+    padding: 15px 25px;
+}
+.whoweare{
+    position: absolute;
+    width: 132px;
+    height: 27px;
+    font-size: 8px;
+    right: -67px;
+    background-color: black;
+    bottom: -21px;  
+}
+.container2{
+    display: flex;
+    margin: 50px;
+}
+.cont2_2div_content{
+    background-color: #ffa85f;
+    margin: 0 30px;
+    position: relative;
+    width:300px;
+}
+.cont2_bg_box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ffa863;
+    background-color: yellow;
+    z-index: -1;
+    top: -20px;
+    right: -18px;
+}
+.cont2_color{
+    color: black;
+
+}
+.labweare{
+    color:orange;
+}
+.btn_cont2{
+    height: 41px;
+    border: 2px solid black;
+    width: 174px;
+    background-color: white;
+}
+.im1{
+    height: 300px;
+}
+.im2{
+    height: 300px;
+    width: 200px;
+}
+.container3{
+    background-color: #4d5154;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.container3_1{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* justify-content: space-evenly; */
+    column-gap: 40px;
+}
+.cont3_div{
+    text-align: center;
+    border: 2px solid #3f4247;
+}
+.cont3_icon{
+    font-size: 50px;
+    margin-top: 25px;
+}
+.btn3{
+    margin: 25px auto 25px auto;
+    /* color: black; */
+    border: 2px solid #3f4247;
+    background-color: #4d5154;
+    font-size: 12px;
+    width: 150px;
+    height: 31px;
+}
+.cont4_div{
+    display: flex;
+}
+.a_unsub{
+    color: #0026d2;
+    text-decoration: none;
+}
